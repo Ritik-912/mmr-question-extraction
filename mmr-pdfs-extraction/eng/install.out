@@ -1,0 +1,46 @@
+Collecting pdfplumber
+  Using cached pdfplumber-0.6.0.tar.gz (46 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pandas
+  Using cached pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting tqdm
+  Using cached tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting langdetect
+  Using cached langdetect-1.0.9.tar.gz (981 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting langcodes
+  Using cached langcodes-3.3.0-py3-none-any.whl (181 kB)
+Collecting pdfminer.six==20211012
+  Using cached pdfminer.six-20211012-py3-none-any.whl (5.6 MB)
+Collecting Pillow>=8.4
+  Using cached Pillow-8.4.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting Wand>=0.6.7
+  Using cached Wand-0.6.13-py2.py3-none-any.whl (143 kB)
+Collecting cryptography
+  Using cached cryptography-40.0.2-cp36-abi3-manylinux_2_28_x86_64.whl (3.7 MB)
+Collecting chardet
+  Using cached chardet-5.0.0-py3-none-any.whl (193 kB)
+Requirement already satisfied: numpy>=1.15.4 in /NS/ssdecl/work/mmr/mmr_venv/lib/python3.6/site-packages (from pandas) (1.19.5)
+Collecting pytz>=2017.2
+  Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting importlib-resources
+  Using cached importlib_resources-5.4.0-py3-none-any.whl (28 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: zipp>=3.1.0 in /NS/ssdecl/work/mmr/mmr_venv/lib/python3.6/site-packages (from importlib-resources->tqdm) (3.6.0)
+Collecting cffi>=1.12
+  Using cached cffi-1.15.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (402 kB)
+Collecting pycparser
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Using legacy 'setup.py install' for pdfplumber, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for langdetect, since package 'wheel' is not installed.
+Installing collected packages: pycparser, cffi, six, cryptography, chardet, Wand, pytz, python-dateutil, Pillow, pdfminer.six, importlib-resources, tqdm, pdfplumber, pandas, langdetect, langcodes
+    Running setup.py install for pdfplumber: started
+    Running setup.py install for pdfplumber: finished with status 'done'
+    Running setup.py install for langdetect: started
+    Running setup.py install for langdetect: finished with status 'done'
+Successfully installed Pillow-8.4.0 Wand-0.6.13 cffi-1.15.1 chardet-5.0.0 cryptography-40.0.2 importlib-resources-5.4.0 langcodes-3.3.0 langdetect-1.0.9 pandas-1.1.5 pdfminer.six-20211012 pdfplumber-0.6.0 pycparser-2.21 python-dateutil-2.9.0.post0 pytz-2024.1 six-1.16.0 tqdm-4.64.1
